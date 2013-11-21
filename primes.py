@@ -23,7 +23,7 @@ while input_number!=-1:
 	else:	
 		print ("Its prime factors are: ")
 		
-		for x in range(2, input_number):
+		for x in range(2, input_number+1):
 			# Set a prime marker so won't have to check if x is prime once it already knows
 			# Won't actually make a big difference unless there are really big repeating prime factors
 			prime_marker = 0
